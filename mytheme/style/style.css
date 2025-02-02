@@ -1,0 +1,53 @@
+
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+main {
+    margin-left: 300px; /* Відступ зліва на ширину меню */
+    padding: 20px;
+}
+
+.report-header h2 {
+    margin: 0;
+}
+
+.report-header p {
+    margin: 5px 0;
+}
+
+.report-buttons {
+    margin-top: 20px;
+}
+
+.report-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.report-buttons button:hover {
+    background-color: #45a049;
+}
+
+.content-section {
+    margin-top: 20px;
+}
